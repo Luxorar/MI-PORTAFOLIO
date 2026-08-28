@@ -22,6 +22,17 @@ h1, h2, h3{
 }
 
 header{
+    display: flex;
     background-color: var(--fondo-2);
-    
+    justify-content: flex-end;
+}
+header .logo{
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
 }
