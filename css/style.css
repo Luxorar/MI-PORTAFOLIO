@@ -1,0 +1,27 @@
+:root{
+
+    --color-fondo: #292929;
+    --fondo-2: #ffc933;
+    --fondo3: #3b3b3b;
+
+    --letra1: #ffffff;
+    --letra2: #ffc933;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--letra1);
+    background-color: var(--color-fondo);
+
+    line-height: 1.5;
+}
+
+h1, h2, h3{
+    line-height: 1.2;
+}
+
+header{
+    background-color: var(--fondo-2);
+    
+}
