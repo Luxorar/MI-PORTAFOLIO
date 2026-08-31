@@ -1,38 +1,75 @@
 :root{
 
     --color-fondo: #292929;
-    --fondo-2: #ffc933;
-    --fondo3: #3b3b3b;
+    --fondo-2: #deb212;
+    --fondo3: #313131;
 
     --letra1: #ffffff;
-    --letra2: #ffc933;
+    --letra2: #ffff00;
 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--letra1);
     background-color: var(--color-fondo);
-
-    line-height: 1.5;
 }
 
-h1, h2, h3{
-    line-height: 1.2;
-}
+
 
 header{
     display: flex;
-    background-color: var(--fondo-2);
+    background-color: var(--fondo3);
     justify-content: flex-end;
 }
 header .logo{
     margin-right: auto;
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 header button{
     background-color: transparent;
     border: none;
+}
+
+.bloque-presentacion{
+    margin-bottom: 10px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    height: 500px;
+
+    background: linear-gradient(
+            135deg, var(--color-fondo)50%, var(--fondo-2)50%
+        );
+    
+}
+
+.bloque-presentacion .texto{
+    display: flex;
+    margin-right: 50px;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1;
+}
+
+.bloque-presentacion h2, .bloque-presentacion h3, .bloque-presentacion p{
+    margin: 0;
+}
+
+.bloque-presentacion .presentacion{
+    color: var(--letra2);
+    font-size: 5rem;
+}
+
+.bloque-presentacion img{
+    width: 400px;
+    height: 400px;
 }
