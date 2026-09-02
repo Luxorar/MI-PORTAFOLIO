@@ -71,7 +71,7 @@ header a{
     border-radius: 50%;
     border: 20px solid var(--fondo-2);
 }
-
+/* =====================================TARJETAS====================================== */
 .cosas-de-mi{
     display: flex;
     margin-bottom: 0;
@@ -81,14 +81,17 @@ header a{
     background-color: var(--fondo3);
 }
 
-.cosas-de-mi .todos-proyectos{
-    margin-top: 1rem;
+.cosas-de-mi .proyectos{
+    font-size: 25px;
+    margin-top: 2rem;
 }
 
-.cosas-de-mi .todos-proyectos h3{
-    color: var(--letra1);       
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.cosas-de-mi .todos-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 20px;
 }
 
 .cosas-de-mi a{
@@ -101,6 +104,7 @@ header a{
     height: 700px;
     color: var(--letra1);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .cosas-de-mi a:hover{
@@ -108,14 +112,19 @@ header a{
     opacity: 0.5;
 }
 
-.cosas-de-mi a p{
+.cosas-de-mi a h4{
+    position: absolute;
     font-size: 1.5rem;
-    margin-top: 12em;
+    margin-top: 40rem;
+}
+
+.cosas-de-mi p{
+    margin-top: 15px;
 }
 
 .cosas-de-mi img{
     margin-top: 20px;
-    width: 300px;
+    width: auto;
     height: 300px;
 }
 
@@ -128,7 +137,7 @@ header a{
     margin-left: 20%;
     max-width: 60%;
 }
-
+/* =========================REDES========================== */
 .zeldas{
     display: flex;
     flex-direction: column;
