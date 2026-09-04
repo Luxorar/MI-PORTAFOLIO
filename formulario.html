@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <section class="formulario-contacto" id="formulario">
+        <h2>Envíame un mensaje</h2>
+        <p>¿Tienes un proyecto en mente o una oferta laboral? Completa el formulario y te responderé lo antes posible.</p>
+
+        <div class="contenedor-formulario">
+            <form action="agradecimiento.html" method="GET" class="form-contacto">
+                
+                <div class="nombre-input">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                </div>
+
+                <div class="email-input">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="motivo-input">
+                    <label for="asunto">Motivo de contacto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="" disabled selected>Selecciona una opción...</option>
+                        <option value="freelance">Proyecto Freelance</option>
+                        <option value="trabajo">Oferta Laboral</option>
+                        <option value="duda">Consulta / Otro</option>
+                    </select>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame más sobre lo que necesitas..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
