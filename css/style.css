@@ -5,7 +5,7 @@
     --fondo3: #313131;
 
     --letra1: rgb(183, 183, 183);
-    --letra2: #ffff00;
+    --letra2: #d9ff00;
 
 }
 
@@ -46,11 +46,14 @@ header{
 }
 
 
-header .logo{
+header .duoc{
     display: flex;
     margin-right: auto;
     width: auto;
-    height: 30px;
+}
+
+header .duoc img{
+    height: 50px;
 }
 
 header a{
@@ -61,6 +64,7 @@ header a{
     color: var(--letra2);
     cursor: pointer;
     text-decoration: none;
+    align-items: center;
 }
 
 header a:hover{
@@ -174,7 +178,7 @@ header a:hover{
 .zeldas{
     display: flex;
     flex-direction: column;
-    height: 20rem;
+    height: 22rem;
     background-color: var(--color-fondo);
 }
 

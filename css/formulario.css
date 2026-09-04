@@ -1,0 +1,57 @@
+:root{
+
+    --color-fondo: #1f1f1f;
+    --fondo-2: #dbde12;
+    --fondo3: #313131;
+
+    --letra1: rgb(183, 183, 183);
+    --letra2: #d9ff00;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--fondo3);
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    color: var(--letra1);
+}
+
+body h1{
+    color: var(--letra2);
+    display: flex;
+    justify-content: center;
+}
+
+body p{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-formulario{
+    background-color: var(--color-fondo);
+    border: 5px double var(--fondo-2);
+    width: 50rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contenedor-formulario .contenido-f{
+    margin-left: 20%;
+    margin-top: 1rem;
+}
+
+.contenedor-formulario .form-contacto input{
+    background-color: var(--color-fondo);
+    border: 2px dashed var(--letra2);
+    border-radius: 15px;
+    height: 2rem;
+    width: 20rem;
+}
