@@ -191,6 +191,11 @@ header a:hover{
     margin-top: 1rem;
 }
 
+.zeldas .cartas p{
+    position: absolute;
+    margin-top: 14rem;
+}
+
 .zeldas a{
     display: inline-flex;
     flex-direction: column;
@@ -200,12 +205,15 @@ header a:hover{
     width: 250px;
     height: 250px;
     color: var(--letra1);
+    text-decoration: none;
     cursor: pointer;
 }
 
 .zeldas img{
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .zeldas a:hover{
