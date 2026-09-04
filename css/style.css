@@ -1,6 +1,6 @@
 :root{
 
-    --color-fondo: #292929;
+    --color-fondo: #1f1f1f;
     --fondo-2: #deb212;
     --fondo3: #313131;
 
@@ -28,7 +28,24 @@ header{
     display: flex;
     background-color: transparent;
     justify-content: flex-end;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    animation: cambiar-color linear;
+    animation-timeline: scroll();
+    animation-range: 0 200px ;
+    animation-fill-mode: forwards;
 }
+
+@keyframes cambiar-color {
+    to {
+        background-color: var(--color-fondo);
+    }
+}
+
+
 header .logo{
     display: flex;
     margin-right: auto;
@@ -36,12 +53,19 @@ header .logo{
     height: 30px;
 }
 
-header button{
+header a{
     display: inline-flex;
     background-color: transparent;
     border: none;
     padding: 10px;
     color: var(--letra2);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+    text-shadow: 0 0 20px var(--fondo-2);
 }
 
 .bloque-presentacion{

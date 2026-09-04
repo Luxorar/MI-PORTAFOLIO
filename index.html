@@ -10,13 +10,13 @@
     <header class="inicio">
         <img src="img/Logo-Duoc-UC.png" alt="logo Duoc" class="logo">
 
-        <button class="boton-inicio">inicio</a>
-        <button class="boton-acerca-de-mi">acerca de mi</a>
-        <button class="boton-contactos">contactos</a>
+        <a href="#bloque-presentacion" >inicio</a>
+        <a href="#cosas-de-mi">acerca de mi</a>
+        <a href="#contactos">contactos</a>
     </header>
 
     <main class="main">
-        <section class="bloque-presentacion">
+        <section class="bloque-presentacion" id="bloque-presentacion">
             <div class="texto">
 
             
@@ -29,7 +29,7 @@
             <img src="img/h.jpg" alt="imagen-cuerpo1" class="imagen-medio-cuerpo-png">
         </section>
         <section class="cosas-de-mi">
-            <div class="cosas-de-mi-texto">
+            <div class="cosas-de-mi-texto" id="cosas-de-mi">
                 <h2>Cosas de mi</h2>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -41,18 +41,21 @@
                     <a class="tienda-discos"  href="https://github.com/Luxorar/TiendaDiscos.git">
                         <img src="img/logo.png" alt="Tienda discos">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minima 
-                            assumenda ipsum veritatis, dolorum, provident odio natus architecto aspernatur, 
-                            iusto eos repudiandae facilis velit ratione officia quam animi saepe quidem.
+                            Sistema de microservicios para la gestión de una tienda de discos.
+                            Cada módulo es un servicio Spring Boot independiente que se comunica vía
+                            REST y Feign Clients, compartiendo una base de datos MySQL única. Incluye
+                            administración de usuarios, envíos, productos, discos, carrito, stock,
+                            ventas y descuentos.
                         </p>
                         <h4>Tienda de discos</h4>
                     </a>
                     <a class="pagina-unimarc" href="https://github.com/Luxorar/UNIMARC-PAG-WEB.git">
                         <img src="img/unimarc.png" alt="pagina unimarc" >
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minima 
-                            assumenda ipsum veritatis, dolorum, provident odio natus architecto aspernatur, 
-                            iusto eos repudiandae facilis velit ratione officia quam animi saepe quidem.
+                            Asistente de inteligencia artificial para Unimarc que actúa como un
+                            parche digital en la experiencia de compra. Muestra la ubicación de los
+                            productos y sus precios actualizados, respondiendo de forma clara y formal
+                            mediante técnicas de RAG y LLMs.
                         </p>
                         <h4>Página unimarc con chat de IA</h4>
                     </a>
@@ -61,22 +64,21 @@
         </section>
         <section class="zeldas">
             <div class="zelda-text">
-                <h2 class="contactos">Contactos</h2>
+                <h2 class="contactos" id="contactos">Contactos</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vel in ipsum 
-                    numquam ea mollitia reiciendis, amet alias excepturi quos, dolorem incidunt. 
-                    Eaque, delectus mollitia dolorem odit atque ipsa numquam.
+                    ¿Te gustaría trabajar conmigo o tienes alguna consulta?
+                    Puedes contactarme a través de mis redes sociales.
                 </p>
                 <div class="cartas">
-                    <a>
+                    <a href="https://www.instagram.com/luxo.rar/">
                         <img src="img/ig.png" alt="ig-imagen">
                         <p>Instagram</p>
                     </a>
-                    <a>
+                    <a href="https://x.com/Luxo_rar">
                         <img src="img/twitter-x-logo.png" alt="twitter-imagen">
                         <p>X</p>
                     </a>
-                    <a>
+                    <a href="https://github.com/Luxorar/">
                         <img src="img/github.png" alt="git-imagen">
                         <p>Github</p>
                     </a>
