@@ -30,14 +30,18 @@ header{
     justify-content: flex-end;
 }
 header .logo{
+    display: flex;
     margin-right: auto;
     width: 100px;
     height: 100px;
 }
 
-header a{
+header button{
+    display: inline-flex;
     background-color: transparent;
     border: none;
+    padding: 10px;
+    color: var(--letra2);
 }
 
 .bloque-presentacion{
@@ -136,6 +140,10 @@ header a{
 .cosas-de-mi .cosas-de-mi-texto{
     margin-left: 20%;
     max-width: 60%;
+}
+
+.cosas-de-mi .todos-proyectos p{
+    max-width: 90%;
 }
 /* =========================REDES========================== */
 .zeldas{
