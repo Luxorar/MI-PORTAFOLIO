@@ -103,7 +103,7 @@ header a:hover{
     border-radius: 50%;
     border: 20px solid var(--fondo-2);
 }
-/* =====================================TARJETAS====================================== */
+
 .cosas-de-mi{
     display: flex;
     flex-direction: column;
@@ -174,7 +174,7 @@ header a:hover{
 .cosas-de-mi .todos-proyectos p{
     max-width: 90%;
 }
-/* =========================REDES========================== */
+
 .zeldas{
     display: flex;
     flex-direction: column;
