@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
     <link rel="stylesheet" href="css/formulario.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <section class="formulario-contacto" id="formulario">
@@ -14,11 +15,12 @@
         </div>
         
         <div class="contenedor-formulario">
-            <form action="agradecimiento.html" method="GET" class="form-contacto">
+            <form action="https://formsubmit.co/luchitodavidvillalonchacon@gmail.com" method="POST" class="form-contacto" id="form-contacto">
                 <div class="contenido-f">
                     <div class="nombre-input">
                         <label for="nombre">Nombre completo</label>
                         <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez Pereira" required>
+                        <small id="errorNombre" class="error"></small>
                     </div>
 
                     <div class="email-input">
@@ -39,6 +41,7 @@
                     <div class="grupo-input">
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame más sobre lo que necesitas..." required></textarea>
+                        <small id="errorMensaje" class="error"></small>
                     </div>
                 </div>
 

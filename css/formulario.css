@@ -113,3 +113,19 @@ body p{
     display: flex;
     justify-content: flex-end;
 }
+
+.form-contacto .contenido-f .nombre-input small{
+    margin-top: -18px;
+    display: block;
+    font-size: 12px;
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    color: var(--letra2);
+}
+
+.form-contacto .contenido-f .grupo-input small{
+    color: var(--letra2);
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 1.5rem;
+}
