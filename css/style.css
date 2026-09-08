@@ -145,7 +145,7 @@ header a:hover{
     color: white;
 }
 
-.cosas-de-mi a h4{
+.cosas-de-mi h4{
     position: absolute;
     font-size: 1.5rem;
     margin-top: 40rem;
@@ -224,4 +224,41 @@ header a:hover{
     box-shadow: 0 0 15px var(--letra2);
     background-color: var(--fondo-2);
     color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .cosas-de-mi{
+        height: auto;
+        width: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -10rem;
+    }    
+    .cosas-de-mi a{
+        width: 600px;
+        height: 400px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .cosas-de-mi img{
+        width: auto;
+        height: auto;
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .cosas-de-mi .todos-proyectos{
+        width: 50rem;
+    }
+
+    .cosas-de-mi h4{
+        font-size: 1.5rem;
+        margin-top: 18rem;
+    }
+
 }
