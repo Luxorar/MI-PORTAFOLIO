@@ -145,7 +145,7 @@ header a:hover{
     color: white;
 }
 
-.cosas-de-mi a h4{
+.cosas-de-mi h4{
     position: absolute;
     font-size: 1.5rem;
     margin-top: 40rem;
@@ -224,4 +224,94 @@ header a:hover{
     box-shadow: 0 0 15px var(--letra2);
     background-color: var(--fondo-2);
     color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .bloque-presentacion{
+        margin-left: 5%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .bloque-presentacion img{
+        width: 300px;
+        height: 300px;
+        margin-right: 10rem;
+    }
+
+
+    .cosas-de-mi{
+        height: auto;
+        width: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -10rem;
+        font-size: 20px;
+    }
+    .cosas-de-mi p{
+        width: 130%;
+    }    
+    .cosas-de-mi h2{
+        margin-top: 30px;
+    }
+    .cosas-de-mi a{
+
+        width: 720px;
+        height: 300px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        padding: 1.5rem;
+
+        position: relative;
+        padding-bottom: 3rem;
+
+        margin-left: -5rem;
+    }
+    .cosas-de-mi img{
+        width: auto;
+        height: auto;
+        max-width: 200px;
+        max-height: 200px;
+        margin-right: 1.5rem;
+    }
+    .cosas-de-mi .todos-proyectos{
+        width: 50rem;
+        margin-bottom: 3rem;
+    }
+    .cosas-de-mi .todos-proyectos a p{
+        margin-top: -10px;
+        max-width: 500px;
+    }
+    .cosas-de-mi .todos-proyectos h4{
+        margin-left: 1.5rem;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
+    .zeldas .zelda-text{
+        margin-left: 5%;
+        max-width: 95%;
+        font-size: 20px;
+    }
+    .zeldas .cartas{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        gap: 20px;
+    }
+    .zeldas a{
+        width: 330px;
+        height: 330px;
+        border-radius: 30px;
+    }
 }
