@@ -28,7 +28,6 @@ body{
 body h1{
     color: var(--letra2);
     display: flex;
-    justify-content: center;
 }
 
 body p{
@@ -120,12 +119,55 @@ body p{
     font-size: 12px;
     margin-left: 12rem;
     margin-bottom: 1rem;
-    color: var(--letra2);
+    color: red;
 }
 
 .form-contacto .contenido-f .grupo-input small{
-    color: var(--letra2);
+    color: red;
     font-size: 12px;
     margin-left: 10px;
     margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .formulario-contacto .enviar-mensaje{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        padding-left: 2rem;
+    }
+    .formulario-contacto .enviar-mensaje p{
+        font-size: 20px;
+    }
+
+    .contenedor-formulario{
+        width: auto;
+    }
+
+    .contenedor-formulario .contenido-f{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .contenedor-formulario .form-contacto input{
+        border: 2px dashed var(--letra2);
+        height: 3rem;
+        width: 25rem;
+        padding-left: 14px;
+    }
+
+    .contenedor-formulario .form-contacto textarea{
+        min-height: 100px;
+        min-width: 300px;
+
+        max-height: 250px;
+        max-width: 520px;
+    }
+
+    .contenedor-formulario .form-contacto select{
+        height: 3rem;
+        width: 25rem;
+    }
+
 }
