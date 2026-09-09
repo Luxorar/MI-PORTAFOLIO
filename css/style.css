@@ -226,7 +226,7 @@ header a:hover{
     color: white;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1380px){
 
     body{
         overflow-x: hidden;
@@ -313,5 +313,119 @@ header a:hover{
         width: 330px;
         height: 330px;
         border-radius: 30px;
+    }
+}
+
+@media (max-width: 767px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        animation-range: 0 100px ;
+
+    }
+
+    .bloque-presentacion{
+        margin-left: 2%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .bloque-presentacion .texto{
+        margin-right: 20px;
+    }
+    .bloque-presentacion .texto h2{
+        font-size: 30px;
+    }
+    .bloque-presentacion img{
+        width: 150px;
+        height: 150px;
+        border: 5px solid var(--fondo-2);
+    }
+
+
+    .cosas-de-mi{
+        height: auto;
+        width: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-left: -5rem;
+        font-size: 20px;
+    }
+    .cosas-de-mi h2{
+        margin-top: 30px;
+    }
+    .cosas-de-mi a{
+
+        width: 400px;
+        height: 400px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        margin-bottom: 20px;        
+
+    }
+    .cosas-de-mi a h4{
+        font-size: 20px;
+    }
+    .cosas-de-mi p{
+        text-align: justify;
+    }
+    .cosas-de-mi a p{
+        display: none;
+    }
+    .cosas-de-mi img{
+        width: auto;
+        height: auto;
+        max-width: 200px;
+        max-height: 200px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .cosas-de-mi .todos-proyectos{
+        width: 50rem;
+        margin-bottom: 3rem;
+        display: block;
+    }
+    .cosas-de-mi .todos-proyectos a p{
+        margin-top: -10px;
+        max-width: 500px;
+    }
+    .cosas-de-mi .todos-proyectos h4{
+        margin-left: 1.5rem;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+
+    .zeldas .zelda-text{
+        margin-left: 5%;
+        max-width: 95%;
+        font-size: 20px;
+    }
+    .zeldas .cartas{
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        gap: 40px;
+    }
+    .zeldas a{
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    .zeldas img{
+        width: auto;
+        height: auto;
+        max-width: 150px;
+        max-height: 150px;
     }
 }
