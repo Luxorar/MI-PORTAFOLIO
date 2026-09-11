@@ -112,9 +112,20 @@ header a:hover{
     background-color: var(--fondo3);
 }
 
+.cosas-de-mi .competencias-tecnicas{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.cosas-de-mi .lista li{
+    margin: 10px;
+}
+
 .cosas-de-mi .proyectos{
     font-size: 25px;
     margin-top: 2rem;
+    color: var(--letra2);
 }
 
 .cosas-de-mi .todos-proyectos{
@@ -157,8 +168,10 @@ header a:hover{
 
 .cosas-de-mi img{
     margin-top: 20px;
+
+    max-height: 300px;
     width: auto;
-    height: 300px;
+    height: auto;
 }
 
 .cosas-de-mi h2{
@@ -276,12 +289,12 @@ header a:hover{
         margin-left: -5rem;
     }
     .cosas-de-mi img{
+        max-height: 150px;
         width: auto;
         height: auto;
-        max-width: 200px;
-        max-height: 200px;
         margin-right: 1.5rem;
     }
+
     .cosas-de-mi .todos-proyectos{
         width: 50rem;
         margin-bottom: 3rem;
