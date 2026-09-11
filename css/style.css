@@ -15,10 +15,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--letra1);
@@ -336,12 +332,11 @@ header a:hover{
 @media (max-width: 767px){
 
     body{
-        height: auto;
+        overflow-x: hidden;
     }
 
     header{
         animation-range: 0 100px ;
-        font-size: 10px;
 
     }
 
